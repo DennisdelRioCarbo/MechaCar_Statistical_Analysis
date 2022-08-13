@@ -19,9 +19,11 @@ From our linear regression model, the r-squared value is 0.71, which means that 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 **Total Summary**
+
 ![image](https://user-images.githubusercontent.com/104289098/184507147-1940f296-9500-42d3-bc70-a1cbc5eaac93.png)
 
 **Lot Summary**
+
 ![image](https://user-images.githubusercontent.com/104289098/184507170-38036e95-bae7-4610-8536-843f4fa7d0a4.png)
 
 Looking at all the manufacturing lots in total we can see that the *mean* and the *median* are about the same numbers telling us that distributions are not skewed and therefore allowing us to rely on the *mean* as a statistical measure for this dataset.  The *variance* for all manufacturing lots in total is 62.30 with a *standard deviation* of 7.9 which would place the variance within the 100 pounds per square inch (PSI) specification. However looking at the lots inidividually we can see that Lot 3 is out of the manufacturing specifications  with a *variance* of 170 and a *standard deviation* of 13. 
