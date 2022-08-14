@@ -24,3 +24,15 @@ lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mea
 
 view(lot_summary)
 
+#Deliverable 3. T-Tests on Suspension Coils
+# T-test for all lots
+t.test((suspension_coil$PSI), mu=1500)
+
+#T-test for lot 1
+t.test(subset(suspension_coil, Manufacturing_Lot=="Lot1", select="PSI" ), mu=1500)
+
+#T-test for lot 2
+t.test(subset(suspension_coil, Manufacturing_Lot=="Lot2", select="PSI" ), mu=1500)
+
+#T-test for lot 3
+t.test(subset(suspension_coil, Manufacturing_Lot=="Lot3", select="PSI" ), mu=1500)
