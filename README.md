@@ -31,25 +31,25 @@ From our linear regression model, the r-squared value is 0.71, which means that 
 ## T-Tests on Suspension Coils
 Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-- T-Test for all lots
+- **T-Test for all lots**
 
 ![image](https://user-images.githubusercontent.com/104289098/184518393-cfae6727-99a2-44de-81e1-f06a085fc961.png)
 
 Assuming our significance level was the common 0.05 percent, our p-value of 0.060 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
-- T-Test for Lot 1
+- **T-Test for Lot 1**
 
 ![image](https://user-images.githubusercontent.com/104289098/184518414-33bdd764-e18c-4245-a7c7-4d51e7882950.png)
 
 Given that the p-value for Lot 1 is 1 the means are exactly the same.
 
-- T-Test for Lot 2
+- **T-Test for Lot 2**
 
 ![image](https://user-images.githubusercontent.com/104289098/184518421-7cb6afd1-f095-4e0c-b5ff-36e37ddd8a4f.png)
 
 For Lot 2 we have a p-value of .6072 above the common significance level. In this case we can't reject the null hypothesis and would state the the means are not statistically different.
 
-- T-Test for Lot 3
+- **T-Test for Lot 3**
 
 ![image](https://user-images.githubusercontent.com/104289098/184518427-f9088c90-887a-49ef-a683-f555d57109c0.png)
 
