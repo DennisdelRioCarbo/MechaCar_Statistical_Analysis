@@ -26,5 +26,32 @@ From our linear regression model, the r-squared value is 0.71, which means that 
 
 ![image](https://user-images.githubusercontent.com/104289098/184507170-38036e95-bae7-4610-8536-843f4fa7d0a4.png)
 
-Looking at all the manufacturing lots in total we can see that the *mean* and the *median* are about the same numbers telling us that distributions are not skewed and therefore allowing us to rely on the *mean* as a statistical measure for this dataset.  The *variance* for all manufacturing lots in total is 62.30 with a *standard deviation* of 7.9 which would place the variance within the 100 pounds per square inch (PSI) specification. However looking at the lots inidividually we can see that Lot 3 is out of the manufacturing specifications  with a *variance* of 170 and a *standard deviation* of 13. 
+ The *variance* for all manufacturing lots in total is 62.30 with a *standard deviation* of 7.9 which would place the variance within the 100 pounds per square inch (PSI) specification. However looking at the lots inidividually we can see that Lot 3 is out of the manufacturing specifications  with a *variance* of 170 and a *standard deviation* of 13. 
+
+## T-Tests on Suspension Coils
+Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+- T-Test for all lots
+
+![image](https://user-images.githubusercontent.com/104289098/184518393-cfae6727-99a2-44de-81e1-f06a085fc961.png)
+
+Assuming our significance level was the common 0.05 percent, our p-value of 0.060 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+- T-Test for Lot 1
+
+![image](https://user-images.githubusercontent.com/104289098/184518414-33bdd764-e18c-4245-a7c7-4d51e7882950.png)
+
+Given that the p-value for Lot 1 is 1 the means are exactly the same.
+
+- T-Test for Lot 2
+
+![image](https://user-images.githubusercontent.com/104289098/184518421-7cb6afd1-f095-4e0c-b5ff-36e37ddd8a4f.png)
+
+For Lot 2 we have a p-value of .6072 above the common significance level. In this case we can't reject the null hypothesis and would state the the means are not statistically different.
+
+- T-Test for Lot 3
+
+![image](https://user-images.githubusercontent.com/104289098/184518427-f9088c90-887a-49ef-a683-f555d57109c0.png)
+
+Lot 3 is the only one in the group with a p-value of .042. This p-value is below the common .05 and we would reject our null hypothesis and state that there is a statistical difference between the group mean and the population mean.
 
