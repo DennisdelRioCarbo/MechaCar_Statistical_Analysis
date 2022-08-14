@@ -56,11 +56,11 @@ For Lot 2 we have a p-value of .6072 above the common significance level. In thi
 Lot 3 is the only one in the group with a p-value of .042. This p-value is below the common .05 and we would reject our null hypothesis and state that there is a statistical difference between the group mean and the population mean.
 
 ## Study Design: MechaCar vs Competition
-- We would perform a statistical study to compare the combined fuel efficiency (combined city/hwy mpg) for the MechaCar with the advertised combined fuel efficiency (combined city/why mpg) of  comparable models from major vehicle manufacturers. The study would be conducted as follows:
-- Metric: Combined city/hwy fuel efficiency (combined city/hwy mpg) 
-- Research Question: Is the the combined fuel efficiency (mpg) of the MechaCar greater than the advertised combined fuel efficiency (mpg) of vehicles from major vehicle manufacturers?
-- Null hypothesis **H0**: There is no difference between the mean of the combined mpg of the MechaCar and the mean of the advertised combined mpg of vehicles from major manufacturers.
-- Alternative hypothesis **Ha**: The mean of the combined mpg of the MechaCar will be greater than the advertised combined mpg of vehicles from major manufacturers.
-- Statistical test: **One-sample t-Test**. We would use the mean of the  combined mpg of the MechaCar and compare it with the mean of the  advertised combined mpg of the vehicles from major manufacturers (presumed population mean). 
+We would perform a statistical study to compare the combined fuel efficiency (combined city/hwy mpg) for the MechaCar with the advertised combined fuel efficiency (combined city/why mpg) of  comparable models from major vehicle manufacturers. The study would be conducted as follows:
+- *Metric*: Combined city/hwy fuel efficiency (combined city/hwy mpg) 
+- *Research Question*: Is the the combined fuel efficiency (mpg) of the MechaCar greater than the advertised combined fuel efficiency (mpg) of vehicles from major vehicle manufacturers?
+- *Null hypothesis* **H0**: There is no difference between the mean of the combined mpg of the MechaCar and the mean of the advertised combined mpg of vehicles from major manufacturers.
+- *Alternative hypothesis* **Ha**: The mean of the combined mpg of the MechaCar will be greater than the advertised combined mpg of vehicles from major manufacturers.
+- *Statistical test*: **One-sample t-Test**. We would use the mean of the  combined mpg of the MechaCar and compare it with the mean of the  advertised combined mpg of the vehicles from major manufacturers (*presumed population mean*). 
 - Data needed to run the statistical test: The combined fuel efficiency (mpg) of the MechaCar and the advertised combined fuel efficiency (mpg) of vehicles of the same class or type as the MechaCar from major manufacturers.
 
